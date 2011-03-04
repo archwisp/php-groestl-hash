@@ -45,12 +45,12 @@ Example:
 The Grøstl team: Søren Steffen Thomsen, Martin Schläffer, Christian Rechberger,
 Florian Mendel, Krystian Matusiewicz, Lars R. Knudsen, Praveen Gauravaram
 
+PHP extension written by Bryan C. Geraghty <bryan@ravensight.org>
+
 For more details, see: 
 
    http://www.groestl.info/
    http://csrc.nist.gov/groups/ST/hash/sha-3/Round3/submissions_rnd3.html
-
-PHP extension written by Bryan C. Geraghty <bryan@ravensight.org>
 
 = LICENSE =
 
