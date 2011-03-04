@@ -11,23 +11,25 @@ Grøstl hash function. The hash source code was taken directly from NIST
 submission package with a few minor variable name changes so that it would play
 nice with PHP.
 
-=== Installation ===
+See the CREDITS section for more details.
+
+= INSTALLATION =
 
 You'll need to have the PHP 5 development package and a working build
 environment to compile this module.
 
 To compile and install:
 
-phpize
-./configure --enable-groestl
-make
-sudo make install
+   phpize
+   ./configure --enable-groestl
+   make
+   sudo make install
 
 Then add the following to your php.ini file:
 
-extension=groestl.so
+   extension=groestl.so
 
-=== Usage ===
+= USAGE =
 
 Function Description:
    
@@ -38,7 +40,7 @@ Example:
    // Build a base-64 encoded hash
    $hash = base64_encode(groestl_hash('Hello, world.'));
 
-=== Credits ===
+= CREDITS =
 
 The Grøstl team: Søren Steffen Thomsen, Martin Schläffer, Christian Rechberger,
 Florian Mendel, Krystian Matusiewicz, Lars R. Knudsen, Praveen Gauravaram
@@ -50,7 +52,7 @@ For more details, see:
 
 PHP extension written by Bryan C. Geraghty <bryan@ravensight.org>
 
-=== License ===
+= LICENSE =
 
 The SHA-3 Submission Requirements states:
 
